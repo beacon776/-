@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="a2.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class="title">
+        查询选手
+      </div>
+      <div class="query-button">
+        <div>
+          <input type="text" placeholder="输入 handle" id="input">
+        </div>
+        <div class="query">
+          <input type="button" value="查询" id="query-button-small">
+        </div>
+      </div>
+    </header>
+
+    <div class="information" id="result">
+      <div class="title">
+        查询结果
+      </div>
+      <div class="answer">
+        <div id="handleResult"></div>
+        <div id="ratingResult"></div>
+        <table id="ratingHistory">
+          <thead>
+          <tr>
+            <th>时间</th>
+            <th>比赛</th>
+            <th>rank</th>
+            <th>变化</th>
+          </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+    <script src="a3.js">
+
+    </script>
+  </body>
+</html>
